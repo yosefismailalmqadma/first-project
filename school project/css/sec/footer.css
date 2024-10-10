@@ -1,0 +1,34 @@
+
+
+/* * footer sec */
+footer {
+  background-color: #4FC5BA;
+  color: #fff;
+  padding: 5rem 0;
+}
+
+footer .content {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+footer .content .socail-links a {
+  margin: 1rem 0 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 2px solid;
+  border-radius: 50%;
+  display: inline-grid;
+  align-items: center;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+footer .content .socail-links a:hover {
+  background-color: #FFF568;
+  color: #505050;
+  transform: rotate(360deg);
+}
+
+/* - footer sec */

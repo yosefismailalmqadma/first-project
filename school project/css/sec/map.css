@@ -1,0 +1,44 @@
+
+
+/* * map sec */
+.map {
+  height: 50vh;
+  position: relative;
+
+}
+.map iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.map form {
+  position: absolute;
+  width: 500px;
+  top: 50%;
+  right: 50%;
+  transform: translate(50% , -50%);
+  background-color:var(--mainColor);
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.map form input{
+flex-grow: 1;
+padding: 1rem 1.5rem;
+border: none;
+outline: none;
+/* border-radius: 5px; */
+font-size: 1.2rem;
+}
+.map form button{
+  font-size: 1.2rem;
+
+border: none;
+outline: none;
+padding: 1rem 1.5rem;
+background-color:var(--dark-color);
+color: var(--lightCol);
+
+}
+
+/* - map sec */

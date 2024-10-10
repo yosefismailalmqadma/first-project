@@ -1,0 +1,53 @@
+
+
+/* * contact sec */
+.contact {
+  padding: 5rem 0;
+  background-color: var(--lightBlue);
+}
+.contact .boxs{
+  display: grid;
+  grid-template-columns: 2fr repeat(2 , 1fr);
+  gap: 2rem;
+}
+.contact .boxs img{
+width: 100%;
+}
+.contact .boxs .contcat-way ,
+.contact .boxs .timing {
+  background-color: var(--lightCol);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+.contact .boxs h3{
+  text-align: center;
+}
+.contact .boxs .contcat-way > div{
+  display: flex;
+  align-items: start;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+.contact .boxs .contcat-way .address{
+  margin-top: 1.5rem;
+}
+.contact .boxs .contcat-way  .box{
+  align-items: center;
+
+}
+.contact .boxs .timing p {
+  margin: 1rem 0 1.5rem;
+} 
+.contact .boxs .timing .days {
+  display: grid;
+  gap: 1rem;
+  justify-items: center;
+  text-align: center;
+} 
+.contact .boxs .timing .days .day-name{
+  background-color: var(--secColor);
+  padding: 0.4rem 1rem;
+  border-radius: 1rem;
+} 
+
+/* - contact sec */

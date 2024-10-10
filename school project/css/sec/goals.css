@@ -1,0 +1,49 @@
+
+/* * goals sec */
+.goals {
+  padding: 5rem 0;
+  background-image:
+    linear-gradient(#59C6BCCC, #59C6BCCC),
+    url(../../img/5-goals/bg.webp);
+  background-repeat: repeat, no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+
+.goals .head {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.goals .head h5 {
+  font-weight: normal;
+}
+
+.goals .boxs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.goals .boxs .box {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.goals .boxs .box h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.goals .boxs .box h3 {
+  color: #505050;
+  font-size: 1rem;
+}
+
+/* - goals sec */

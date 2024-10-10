@@ -1,0 +1,52 @@
+
+/* * parent sec */
+.parent {
+  padding: 5rem 0;
+}
+
+.parent .head {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.parent .head h5 {
+  color: #59C6BC;
+  font-weight: normal;
+}
+
+.parent .boxs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.parent .boxs .box {
+  display: flex;
+  align-items: start;
+  gap: 1.5rem;
+}
+
+.parent .boxs .box .content {
+  background-color: #F9F9F9;
+  border-radius: 25px;
+  padding: 1rem;
+  font-size: 0.8rem;
+  position: relative;
+}
+
+.parent .boxs .box .content::before {
+  content: "";
+  display: inline-block;
+  border: 20px solid;
+  border-color: transparent transparent transparent #F9F9F9;
+  position: absolute;
+  left: 100%;
+}
+
+.parent .boxs .box .content .info {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* - parent sec */

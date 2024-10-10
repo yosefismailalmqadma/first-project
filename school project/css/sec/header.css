@@ -1,0 +1,84 @@
+
+/* * header sec */
+header {
+  background-color: var(--mainColor);
+  color: var(--lightCol);
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  min-height: 15vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* logo */
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+header .logo .logo-title h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+header .logo .logo-title h4 {
+  color: var(--dark-color);
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1;
+}
+
+/* nav links */
+header nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+header nav a {
+  font-weight: 400;
+  font-size: 15px;
+  width: 85px;
+  height: 38px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+header nav a:hover {
+  background-color: var(--secColor);
+  color: var(--dark-color);
+  transform: translateY(-5px);
+}
+
+header nav a.active {
+  background-color: var(--secColor);
+  color: var(--dark-color);
+}
+
+header .bar-icon {
+  display: none;
+  font-size: 2rem;
+  color: var(--secColor);
+  cursor: pointer;
+  background-color: var(--dark-color);
+  padding: 5px;
+}
+
+/* - header sec */

@@ -1,0 +1,41 @@
+@media (max-width : 992px) {
+  header nav {
+    display: none;
+  }
+
+  header .bar-icon {
+    display: block;
+  }
+
+  footer .content {
+    width: 100%;
+  }
+
+  .parent .boxs {
+    grid-template-columns: repeat(1, 1fr);
+
+
+  }
+
+  .contact .boxs{
+
+    grid-template-columns: 1fr;
+
+  }
+  .map form {
+
+    width: 90%;
+   
+  }
+
+}
+
+@media (min-width : 992px) and (max-width: 1200px)  {
+  .contact .boxs{
+    grid-template-columns: 1fr 1fr;
+  }
+  .contact .boxs .imgbox{
+    grid-column-start: 1 ;
+    grid-column-end: span 2;
+  }
+}

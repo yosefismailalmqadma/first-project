@@ -1,0 +1,41 @@
+
+/* * main sec */
+main {
+  background-image: url(../../img/2-main/bgi.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+main .container .content {
+  color: var(--lightCol);
+  width: 450px;
+}
+
+main .container .content h1 {
+  font-size: 3rem;
+
+}
+
+main .container .content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 0.5rem 0 1.5rem;
+}
+
+main .container .content a {
+  background-color: var(--secColor);
+  color:var(--dark-color);
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.5rem 3rem;
+  border-radius: 25px;
+  margin-top: 1rem;
+}
+
+/* - main sec */

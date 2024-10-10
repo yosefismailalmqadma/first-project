@@ -1,0 +1,50 @@
+/* * Global CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --mainColor: #59C6BC;
+  --secColor: #FFF568;
+  --lightCol: #fff;
+  --dark-color: #505050;
+  --lightBlue: #EEF6F6;
+}
+
+body {
+  color: var(--dark-color);
+  font-family: 'Cairo', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  user-select: none;
+}
+
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.dy-0-5 {
+  animation-delay: 0.5s;
+}
+
+.dy-1 {
+  animation-delay: 1s;
+}
+
+.dy-1-5 {
+  animation-delay: 1.5s;
+}
+
+.dy-2 {
+  animation-delay: 2s;
+}
+
+/* - Global CSS */
